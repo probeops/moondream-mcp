@@ -2,6 +2,7 @@
   "name": "moondream-mcp",
   "version": "0.1.0",
   "description": "MCP server for Moondream image analysis",
+  "license": "Apache-2.0",
   "type": "module",
   "main": "build/index.js",
   "scripts": {
@@ -11,7 +12,9 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^0.6.0",
-    "moondream": "^0.0.5"
+    "dotenv": "^8.2.0",
+    "moondream": "^0.0.5",
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
     "@types/node": "^20.17.10",
